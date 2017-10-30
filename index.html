@@ -1,56 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>My First Blog</title>
+	<title>BangKang Chen's website</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link rel="stylesheet" type="text/css" href="styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 </head>
 
 <body>
-	<h1>Welcome To My Blog !</h1>
-
-	<div>
-
-		<p id="date">J anuary <sub>23 2017</sub></p>
-
-		<h2>This Is My First Article</h2>
-
-		<p id="quotea">
-			Bacon ipsum dolor amet capicola strip steak landjaeger, biltong spare ribs rump cow ground round andouille sirloin pork. Short ribs pig prosciutto swine. Flank turducken turkey rump, leberkas shoulder bresaola ham hock tail drumstick corned beef. Venison
-			pork chop beef jowl short ribs.
-		</p>
-
-		<p>Bresaola short ribs pastrami, beef ribs spare ribs kielbasa ham tongue kevin landjaeger chicken ball tip. Pork chop beef kevin strip steak, chicken pork belly pastrami ham hock flank shoulder chuck turkey ribeye andouille ball tip. Leberkas ham ham
-			hock pork loin. Filet mignon bacon pancetta leberkas turducken fatback tongue frankfurter jowl. Shoulder tenderloin chicken shank bacon shankle sirloin.</p>
-
-		<p>Pork pig pork loin prosciutto meatball turkey beef ribs ground round. Pork belly salami shank pork chop turducken ribeye swine shoulder tri-tip fatback cupim short loin chuck strip steak. Rump pork chop t-bone.</p>
-
-
-		<p id="date">D ecember <sub>11 2016</sub></p>
-		<h2>This Is Another Article</h2>
-
-		<p>
-			Bacon ipsum dolor amet capicola strip steak landjaeger, biltong spare ribs rump cow ground round andouille sirloin pork. Short ribs pig prosciutto swine. Flank turducken turkey rump, leberkas shoulder bresaola ham hock tail drumstick corned beef. Venison
-			pork chop beef jowl short ribs.
-		</p>
-
-		<p>Shankle beef ribs tongue strip steak flank landjaeger capicola hamburger chuck pancetta kevin. Sirloin landjaeger chicken, bresaola brisket swine short ribs turkey short loin ball tip porchetta ham hock. Capicola frankfurter jowl short loin. Kevin
-			flank hamburger, beef venison shankle short loin bresaola frankfurter</p>
-
-		<p>Bresaola short ribs pastrami, beef ribs spare ribs kielbasa ham tongue kevin landjaeger chicken ball tip. Pork chop beef kevin strip steak, chicken pork belly pastrami ham hock flank shoulder chuck turkey ribeye andouille ball tip. Leberkas ham ham
-			hock pork loin. Filet mignon bacon pancetta leberkas turducken fatback tongue frankfurter jowl. Shoulder tenderloin chicken shank bacon shankle sirloin.</p>
-
+	<div class="contain">
+		<div class="navigation" >
+			<img class='mainPic' src="./images/sideface.jpg">
+			<h4>陳邦亢(Leo BKChen)</h4>
+			<p>犧牲享受，享受犧牲。</p>
+			<a href="#簡介">簡介</a><br>
+			<a href="#經歷">經歷</a><br>
+			<a href="#相冊">相冊</a>
+		</div>
+		<div class='content'>
+			<div id='簡介' class="introduce">
+				<img class='introPic' src="./images/introPic.jpg">
+				<div class="introcontent">
+					<br>
+					<h2>
+						陳邦亢(Leo Chen)
+					</h2>
+					<p >
+						20歲，現就讀於國立清華大學電機工程學系三年級，
+						<br>
+						是一位對新鮮事物充滿好奇，善於與人溝通的大學生。
+						
+					</p>
+					<p>喜歡具創意性、創造性的事物，目前朝向程式設計發展中。</p>
+					<br><br><br><br><br><br>
+					<a class="btn btn-primary"  role="button" href="https://www.facebook.com/bangkang.chen">
+						<span class="fbText">
+							<i class="fa fa-id-card" aria-hidden="false"></i>
+							我的臉書
+						</span>
+					</a>
+				</div>
+			</div>
+			<div id='經歷' class="experience">
+				<h2>
+					經歷
+				</h2>
+				<p>活動跑跳、上台演出</p>
+				<ul style="list-style-type:disc">
+				  <li>
+				  	2016清大南友之夜大戲主角 
+				  	<a href="https://www.youtube.com/watch?v=sXhw3Kh0SQw&amp;t=2303s&nbsp;">
+				  		(影片連結)
+				  	</a>
+				  </li>
+				  <li>
+				  	2016清交南友迎新宿營大戲負責人
+				  	<a href="https://www.youtube.com/watch?v=6DozdP4wK20">
+				  		(影片連結)
+				  	</a>
+				  </li>
+				  <li>
+				  	2017南友返鄉服務營股長
+				  </li>
+				  <li>
+				  	2017清大南夜主持串場
+				  	<a href="https://www.youtube.com/watch?v=mgAhAHnVwEk&nbsp;">
+				  		(影片連結)
+				  	</a>
+				  </li>
+				  <li>
+				  	2017電機之夜喜劇負責人
+				  </li>
+				  <li>
+				  	2017電機新生創造營活動股長
+				  </li>
+				  <li>
+				  	2017南友迎新宿營營長
+				  </li>
+				  <li>
+				  	19級南友會會長
+				  </li>
+				</ul>  
+			</div>
+			<div id='相冊' class="gallery">
+				<h2>相冊</h2>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="thumbnail">
+							<img class="galleryContent img-responsive" src="./images/2016南夜1.jpg">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="thumbnail">
+							<img class="galleryContent img-responsive" src="./images/2016南夜2.jpg">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="thumbnail">
+							<img class="galleryContent" src="./images/電夜3.jpg">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="thumbnail">
+							<img class="galleryContent" src="./images/電夜11.jpg">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="thumbnail">
+							<img class="galleryContent" src="./images/2016迎新1.jpg">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="thumbnail">
+							<img class="galleryContent" src="./images/2017南夜1.jpg">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="thumbnail">
+							<img class="galleryContent" src="./images/2017新創1.jpg">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="thumbnail">
+							<img class="galleryContent" src="./images/2017迎新1.jpg">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="thumbnail">
+							<img class="galleryContent" src="./images/2017返服1.jpg">
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer>
+				©陳邦亢(Leo Chen) 2017
+			</footer>
+		</div>
 	</div>
 
-	<footer>
-	This is a footer. DataLab 2017
-	</footer>
 </body>
-
-
-
 </html>
